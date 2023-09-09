@@ -10,7 +10,7 @@ def Endpoint(request):
     slack_name = request.GET.get('slack_name')
     track = request.GET.get('track')
 
-    # Get current day of the week in the specified format
+    # Get current day of the week in the specified formatc
     current_day = datetime.datetime.now().strftime('%A')
 
     # Get current UTC time with validation of +/-2 minutes
